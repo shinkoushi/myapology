@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: lightskyblue;
+}
+.surat{
+    padding:60px 40px;
+    background-color:lightyellow;
+    margin-top: 50px;
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border: 2px solid #f20044;
+    border-radius: 15px;
+}
+h2{
+    color: #585454;
+}
+p{
+text-align: left;
+text-indent: 8px;
+margin-bottom: 10px;
+font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.nama{
+    text-align: right;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 15px;
+}
+span{
+    color: red;
+}
+a{
+    margin-top: 50px;
+    margin-bottom: 300px;
+    background-color: #191919;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    border: 3px solid #f20044;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: transform 0.5s;
+}
+a:hover{
+    color: #f20044;
+    transition: 0.5s;
+}
